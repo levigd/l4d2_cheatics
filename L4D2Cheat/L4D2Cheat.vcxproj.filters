@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\SDK">
+      <UniqueIdentifier>{26757ad7-013e-4cb2-a589-6b9a0b2c7177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\SDK">
+      <UniqueIdentifier>{243a184a-fde6-442f-88aa-821f08a59671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Utils">
+      <UniqueIdentifier>{5ab9912c-2dd2-48f4-9e87-00438c3503d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Utils">
+      <UniqueIdentifier>{7b32f7f3-8671-4100-baae-afb39c01a990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\ImGui">
+      <UniqueIdentifier>{b9b62c63-695a-49ea-99a4-27b23279a260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\ImGui">
+      <UniqueIdentifier>{a69181bd-f1af-40b2-8f6b-a2ee3b7b5c9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\DirectX9">
+      <UniqueIdentifier>{bd1ddc22-762f-48c0-9262-361e8ed7907c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\DirectX9">
+      <UniqueIdentifier>{674638ef-c260-4cf1-9c3b-bd7be713cc6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\SDK\Entitys">
+      <UniqueIdentifier>{c7b4f1dd-d2bb-4be3-9b61-3ca03d7a0250}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DllMain.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Utils.cpp">
+      <Filter>Исходные файлы\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx9.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX9\Gui.cpp">
+      <Filter>Исходные файлы\DirectX9</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX9\DirectX.cpp">
+      <Filter>Исходные файлы\DirectX9</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\IBaseClient.cpp">
+      <Filter>Исходные файлы\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\CVector.cpp">
+      <Filter>Исходные файлы\SDK</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DllMain.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Utils.h">
+      <Filter>Файлы заголовков\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IClientEntityList.h">
+      <Filter>Файлы заголовков\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>Файлы заголовков\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>Файлы заголовков\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx9.h">
+      <Filter>Файлы заголовков\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>Файлы заголовков\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>Файлы заголовков\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>Файлы заголовков\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>Файлы заголовков\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>Файлы заголовков\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX9\Gui.h">
+      <Filter>Файлы заголовков\DirectX9</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX9\DirectX.h">
+      <Filter>Файлы заголовков\DirectX9</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Entitys.h">
+      <Filter>Файлы заголовков\SDK\Entitys</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IBaseClient.h">
+      <Filter>Файлы заголовков\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\EngineClient.h">
+      <Filter>Файлы заголовков\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Matrix.h">
+      <Filter>Файлы заголовков\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\CVector.h">
+      <Filter>Файлы заголовков\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces.h">
+      <Filter>Файлы заголовков\SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
